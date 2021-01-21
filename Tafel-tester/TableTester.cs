@@ -7,7 +7,7 @@ namespace Tafel_tester
     class TableTester
     {
         private const string exceptionDifferentMountAnswersTables = "the amount of answer doesn't equal the amount of questions";
-        private const int numberOfTables = 5;
+        private int numberOfTables = 5;
         private const int mininalTableOption = 1;
         private Random random;
         private int[,] randomTables;
@@ -30,6 +30,8 @@ namespace Tafel_tester
                     options.Add(newOption);
                 }
             }
+
+            numberOfTables = Math.Min(numberOfTables, options.Count);
             randomTables = new int[numberOfTables, 2];
             for(int i=0; i < randomTables.GetLength(0); i++)
             {
@@ -62,7 +64,14 @@ namespace Tafel_tester
 
         public int[,] GetRandomTables()
         {
-            return randomTables;
+            if (randomTables != null)
+            {
+                return randomTables;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public double[] GetScore(int[] answers)

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Tafel_tester"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="grid_Copy">
+    <Grid x:Name="renamedGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
