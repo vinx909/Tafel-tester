@@ -11,25 +11,5 @@
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label Content="Vul hat hoogste getal in dat gebruikt mag wording in de sommen" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <Button Content="Maak sommen" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label x:Name="labelSum0" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelSum1" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelSum2" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelSum3" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelSum4" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="labelSumCorrect0" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="97,66,0,0" VerticalAlignment="Top" Width="53"/>
-        <Label x:Name="labelSumCorrect1" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="97,92,0,0" VerticalAlignment="Top" Width="53"/>
-        <Label x:Name="labelSumCorrect2" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="97,118,0,0" VerticalAlignment="Top" Width="53"/>
-        <Label x:Name="labelSumCorrect3" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="97,144,0,0" VerticalAlignment="Top" Width="53"/>
-        <Label x:Name="labelSumCorrect4" Content="7x7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="97,170,0,0" VerticalAlignment="Top" Width="53"/>
-        <Button Content="Laat score zien" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <Label x:Name="labelScore" Content="Label" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,221,0,0" VerticalAlignment="Top" Width="158"/>
-        <TextBox x:Name="textboxUpperrange" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="367,14,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBoxSum0" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="38,74,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
-        <TextBox x:Name="textBoxSum4" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="38,174,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
-        <TextBox x:Name="textBoxSum3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="38,148,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
-        <TextBox x:Name="textBoxSum2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="38,122,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
-        <TextBox x:Name="textBoxSum1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="38,96,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"/>
     </Grid>
 </Window>
